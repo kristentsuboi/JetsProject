@@ -1,0 +1,3 @@
+Cargo,2000,
+type, model, speed, range, price
+Passenger,Boeing737,260,1400,1908390
