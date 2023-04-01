@@ -8,9 +8,7 @@ public abstract class Jet {
 	private int range;
 	private long price;
 	
-	public void fly() {
-		
-	}
+	public abstract void fly();
 	
 	
 	@Override
@@ -67,13 +65,15 @@ public abstract class Jet {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Jet [model=");
+		builder.append("Jet [model: ");
 		builder.append(model);
-		builder.append(", speed=");
+		builder.append(", speed(MPH): ");
 		builder.append(speed);
-		builder.append(", range=");
+		builder.append(", speed(mach): ");
+		builder.append(speed * 0.0013);
+		builder.append(", range: ");
 		builder.append(range);
-		builder.append(", price=");
+		builder.append(", price: ");
 		builder.append(price);
 		builder.append("]");
 		return builder.toString();

@@ -175,6 +175,9 @@ public class JetsApplication {
 			if (addChoice == 5) {
 				af.getFleet().add(new FlyingYacht(model, speed, range, price));
 			}
+			else { 
+				af.getFleet().add(new BasicJet(model, speed, range, price));
+			}
 			System.out.println("Jet has been added...");
 		} catch (InputMismatchException o) {
 			System.out.println("Invalid input.");

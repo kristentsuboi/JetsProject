@@ -9,6 +9,8 @@ public class BasicJet extends Jet {
 	@Override
 	public void fly() {
 		System.out.println("Basic jet is flying wooooshhhhh.");
+		System.out.println(toString());
+		System.out.println("This jet can travel for up to " + (this.getRange() / this.getSpeed()) + " hours before running out of fuel. \n");
 		
 	}
 

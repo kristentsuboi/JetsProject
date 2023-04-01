@@ -14,6 +14,8 @@ public class FighterJet extends Jet implements Combat{
 	@Override
 	public void fly() {
 		System.out.println("Fighter jet in route..........");
+		System.out.println(toString());
+		System.out.println("This jet can travel for up to " + (this.getRange() / this.getSpeed()) + " hours before running out of fuel. \n");
 		
 	}
 
