@@ -1,3 +1,5 @@
-Cargo,2000,
-type, model, speed, range, price
-Passenger,Boeing737,260,1400,1908390
+CargoJet,2000CP,400,2500,1300000
+BasicJet,Boeing737,544,3200,1250000
+FighterJet,SuperFight737,650,2000,85000000
+SparklyUfo,SuperAlien,1000,5000,1000000000
+FlyingYacht,TheKristen,350,1850,7000000
