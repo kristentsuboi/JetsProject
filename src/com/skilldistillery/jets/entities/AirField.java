@@ -67,6 +67,10 @@ public class AirField {
 
 	public void setFleet(List<Jet> fleet) {
 		this.fleet = fleet;
+	
 	}
+
+
+	
 
 }

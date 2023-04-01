@@ -8,9 +8,9 @@ public abstract class Jet {
 	private int range;
 	private long price;
 	
-	public abstract void fly();
-	
-	
+	public void fly() {
+		
+	}
 	
 	
 	@Override
