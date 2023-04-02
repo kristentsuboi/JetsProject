@@ -36,7 +36,6 @@ public class JetsApplication {
 				fastestJet();
 			} else if (option == 4) {
 				longestRange();
-				continue;
 			} else if (option == 5) {
 				loadCargoJets();
 			} else if (option == 6) {
